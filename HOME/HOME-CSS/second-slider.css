@@ -1,0 +1,107 @@
+.name__slider {
+  margin-bottom: 50px;
+  margin-top: 190px;
+  display: flex;
+  justify-content: center;
+  font-size: 24px;
+}
+.slider {
+  position: relative;
+  overflow: hidden;
+}
+
+.slider__wrapper {
+  display: flex;
+  transition: transform 0.6s ease;
+}
+
+.slider__item {
+  flex: 0 0 20%;
+  max-width: 30%;
+  margin-right: 47px;
+}
+
+.slider__control {
+  position: absolute;
+  top: 50%;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  width: 40px;
+  color: #fff;
+
+  text-align: center;
+  opacity: 0.5;
+  height: 120px;
+  transform: translateY(-50%);
+}
+
+.slider__control_show {
+  display: flex;
+}
+
+.slider__control:hover,
+.slider__control:focus {
+  color: #fff;
+  text-decoration: none;
+  outline: 0;
+  opacity: 0.9;
+}
+
+.slider__control_left {
+  left: 0;
+}
+
+.slider__control_right {
+  right: 0;
+}
+
+.slider__control::before {
+  content: "";
+  display: inline-block;
+  width: 500px;
+  height: 500px;
+  background: transparent no-repeat center center;
+  background-size: 100% 100%;
+}
+
+.slider__control_left::before {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+.slider__control_right::before {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+.slider__item {
+  position: relative;
+  width: 30%;
+  height: 240px;
+}
+.slider__text {
+  height: 100%;
+  width: 417px;
+  position: absolute;
+  top: 0px;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: rgba(152, 146, 144, 0.5);
+  color: white;
+  display: none;
+  text-align: center;
+}
+
+.slider__item:hover .slider__text {
+  display: block;
+}
+.title__slider {
+  padding-top: 70px;
+  line-height: 20px;
+  font-weight: normal;
+}
+.text__slider {
+  margin-left: 70px;
+  width: 74%;
+  height: 13%;
+  line-height: 20px;
+}

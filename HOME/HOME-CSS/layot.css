@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Playfair+Display&display=swap");
+.first {
+  background-color: white;
+  color: black;
+  display: flex;
+  flex-direction: column;
+  width: 450px;
+
+  margin-left: 120px;
+  height: 320px;
+}
+.first__title-text {
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 90px;
+}
+.first__info-text {
+  font-weight: normal;
+  font-size: 60px;
+  line-height: 60px;
+}
+
+.first__end-text {
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 55px;
+  font-family: "Italianno", cursive;
+}
+
+.first__parag-text {
+  font-size: 16px;
+  line-height: 28px;
+  width: 270px;
+}
+.masonry-layout__panel3 {
+  background-color: rgb(204, 234, 234);
+  width: 500px;
+  height: 640px;
+}
+.masonry-layout__panel-content3 {
+  background-image: url(../HOME-PHOTO/GOODVIBES.webp);
+
+  width: 500px;
+  height: 550px;
+  margin-left: 17px;
+  display: flex;
+  align-content: space-between;
+}
+.poster__first {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 480px;
+  line-height: 40px;
+  padding-left: 155px;
+  cursor: pointer;
+}
+
+.poster__first-btn {
+  background-color: rgb(204, 234, 234);
+  border: none;
+  text-decoration: underline;
+  line-height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Playfair Display", serif;
+}
+.masonry-layout__panel4 {
+  background-color: #f5e5d6;
+  width: 500px;
+  height: 640px;
+  padding-left: 70px;
+  margin-top: 120px;
+}
+.masonry-layout__panel-content4 {
+  background-image: url(../HOME-PHOTO/coco.webp);
+
+  width: 500px;
+  height: 550px;
+}
+.poster__second {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 480px;
+  line-height: 40px;
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.poster__second-btn {
+  background-color: #f5e5d6;
+  border: none;
+  text-decoration: underline;
+  line-height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Playfair Display", serif;
+}
+.masonry-layout__panel5 {
+  width: 500px;
+  height: 640px;
+  margin-top: 80px;
+  border: 5px solid black;
+}
+.masonry-layout__panel-content5 {
+  background-image: url(../HOME-PHOTO/cactus.webp);
+
+  width: 500px;
+  height: 550px;
+  margin-left: 25px;
+  display: flex;
+}
+.poster__three {
+  font-size: 20px;
+  text-align: center;
+  padding-top: 480px;
+  line-height: 40px;
+  padding-left: 155px;
+  cursor: pointer;
+}
+
+.poster__three-btn {
+  background-color: white;
+  border: none;
+  text-decoration: underline;
+  line-height: 30px;
+  font-size: 15px;
+  cursor: pointer;
+  font-family: "Playfair Display", serif;
+}
+
+.main_block {
+  display: flex;
+  flex-direction: column;
+  margin-left: 80px;
+  margin-top: 70px;
+}
+
+.second_block {
+  display: flex;
+  flex-direction: column;
+  margin-right: 80px;
+  margin-top: 70px;
+}
+
+.global_block {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-between;
+}
+
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+
+.slideshow {
+  margin: 0 !important;
+}

@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Italianno&family=Playfair+Display&display=swap");
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+.info {
+  padding-bottom: 60px;
+}
+
+.image2 {
+  background-image: url(../HOME-PHOTO/f61af8_cae8ab0ae68d42f8b7bb19777d072acc_mv2_d_7200_4800_s_4_2.webp)
+    cover no-repeat;
+  width: 50%;
+
+  object-fit: cover;
+}
+
+.content {
+  display: flex;
+  height: 700px;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+
+  width: 428px;
+  padding-left: 80px;
+  padding-top: 140px;
+}
+
+.content-two {
+  background-color: rgb(204, 234, 234);
+  width: 50%;
+}
+
+.text__title {
+  font-weight: normal;
+  font-size: 39px;
+  line-height: 40px;
+  font-family: "Italianno", cursive;
+}
+.info__text {
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.text__end-first {
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 100px;
+}
+
+.text__end-second {
+  font-weight: normal;
+  font-size: 100px;
+  line-height: 75px;
+}
+.info__btn {
+  line-height: 95px;
+}
+.btn {
+  background-color: #f8a888;
+  border: none;
+  line-height: 40px;
+  width: 130px;
+  font-family: "Playfair Display", serif;
+  font-size: 14px;
+}
+.btn:hover {
+  background-color: #fdd7c5;
+  transition: 1s;
+  cursor: pointer;
+}
